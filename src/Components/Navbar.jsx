@@ -12,10 +12,10 @@ const Navbar = () => {
 
          <div className='links ml-32 flex gap-20'>
 
-          {["Home","Work","Culture","|","News"].map((e,idx) => (
-
+          {["Home","Work","Culture","","News"].map((e,idx) => (
+            e.length==0 ? <span>|</span> :
             <a className='text-gray-400 flex gap-1 items-center justify-center' href='#' >
-               {e.length!=0 && idx==1  && <span className='w-1 h-1 rounded-full bg-green-300'></span>}
+               {e.length!=0 && idx==1  && <span style={{'box-shadow':' 0 0 10px #00ff99, 0 0 20px #00ff99, 0 0 30px #00ff99'}} className='w-1 h-1 rounded-full bg-green-300'></span>}
               {e}
             </a>
           ))}
