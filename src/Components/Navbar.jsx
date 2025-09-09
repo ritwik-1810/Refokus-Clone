@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../assets/logo (3).png"
 import Button from './Button'
+import MusicPlayer from './MusicPlayer'
 const Navbar = () => {
   return (
     <div className='max-w-screen-xl mx-auto py-6 flex items-center justify-between border-b-[2px] '>
@@ -19,6 +20,8 @@ const Navbar = () => {
               {e}
             </a>
           ))}
+
+          <MusicPlayer></MusicPlayer>
          </div>
        </div>
        <Button val={"Get Started"}></Button>
