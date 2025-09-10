@@ -5,7 +5,7 @@ import Stripes from './Components/Stripes'
 import Products from './Components/Products'
 import Marquees from './Components/Marquees'
 import Boxes from './Components/Boxes'
-import Footer from './Components/footer'
+import Footer from './Components/Footer'
 
 
 const App = () => {
