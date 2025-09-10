@@ -11,6 +11,7 @@ const Products = () => {
     <div className='py-10'>
     {
       arr.map((elem)=><Product val={elem.val} discription={elem.discription} isTrue={elem.isTrue}></Product>)
+       
     }
     </div>
   )

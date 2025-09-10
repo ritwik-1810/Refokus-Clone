@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='max-w-screen-xl mx-auto flex gap-5 mt-10'>
+    <div className='max-w-screen-xl mx-auto flex gap-5 mt-40'>
         <div className='w-1/2 text-9xl'>Be Curious.</div>
         <div className='w-1/2  flex gap-6'>
         <div className='w-[25%] flex flex-col '>
